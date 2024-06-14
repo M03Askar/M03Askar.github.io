@@ -660,6 +660,7 @@ Even though the collision doesn't occur until Frame 3, the program has to check 
 * Add a Conditional Statement to the Function. It should translate to:
 
     **IF positionX is greater than boardWidth:
+    **IF positionX is greater than boardWidth:
         Change Direction of the Box**
 
     * **HINT:** To create a Conditional statement, use this syntax:
@@ -941,7 +942,7 @@ In your bash terminal, enter the following commands, pressing ENTER after each o
 
 `git commit -m 'add bouncing box'`
 
-`git push`
+
 
 Give it a couple minutes and you should be able to view the additions to your website live on the web at `username.github.io` (Where `username` is your own GitHub username.)
 

@@ -20,7 +20,9 @@ var init = function (window) {
         ////////////////////////////////////////////////////////////
         
         // TODO 1 : Declare and initialize our variables
-
+        var circle; // variable that will hold a single circle when creating circles
+        var circles = []; // variable to store all circles in one Array
+        
 
         // TODO 2 : Create a function that draws a circle 
         

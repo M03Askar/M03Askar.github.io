@@ -36,11 +36,9 @@ var init = function (window) {
 
 
         // TODO 3 / 7 : Call the drawCircle() function 
-        drawCircle()
-        drawCircle()
-        drawCircle()
-        drawCircle()
-        drawCircle()
+        for (var count = 0; count < 100; count++) {
+            drawCircle();
+        }
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
         ////////////////////////////////////////////////////////////
@@ -81,11 +79,11 @@ var init = function (window) {
                 circle.x = canvas.width;
             }
 
-            if ( circle.x < 0 ) {
+            if ( circle.y < 0 ) {
                 circle.y = canvas.height;
             }
 
-            if ( circle.x > canvas.height ) {
+            if ( circle.y > canvas.height ) {
                 circle.y = 0;
             }
 
